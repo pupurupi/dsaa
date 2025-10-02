@@ -1,10 +1,9 @@
-//Условие: Создайте бинарную кучу из нескольких элементов и напишите функцию, которая возвращает минимальный элемент, не извлекая его.
+//Задача 1: Поиск минимального элемента в бинарной куче 
 import java.util.PriorityQueue;
 
 public class Main1 {
     public static void main(String[] args) {
-        
-        // Создаем min-heap (минимальную кучу)
+
         // PriorityQueue в Java по умолчанию создает min-heap
         // Элементы автоматически упорядочиваются так, что минимальный всегда наверху
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
